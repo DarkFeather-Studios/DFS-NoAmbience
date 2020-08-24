@@ -19,7 +19,7 @@ Config.dfs_noambience = {
         { modelname = "AKULA"      , BannedFromSpawning = true ,  RemoveUntouched = true   },
         { modelname = "JET"        , BannedFromSpawning = true ,  RemoveUntouched = true   },
         { modelname = "LUXOR"      , BannedFromSpawning = false,  RemoveUntouched = false  },
-      --{ modelname = "NUMBUS"     , BannedFromSpawning = false,  RemoveUntouched = false  }, not a vehicle. Nimbus? That's Gabe's personal jet.
+        { modelname = "NUMBUS"     , BannedFromSpawning = false,  RemoveUntouched = false  },
         { modelname = "STRIKEFORCE", BannedFromSpawning = true ,  RemoveUntouched = true   },
         { modelname = "TITAN"      , BannedFromSpawning = true ,  RemoveUntouched = true   },
         { modelname = "AMBULANCE"  , BannedFromSpawning = false,  RemoveUntouched = false  }
@@ -53,7 +53,7 @@ Config.dfs_noambience = {
     },
 
     DefaultModelBoosts      = {
-        ["NIL"]             =   { torque =      0.0 ,   initialDriveForce =      0.00  , fDriveInertia =      0.0, fClutchChangeRateScaleUpShift =     0.0, fClutchChangeRateScaleDownShift =      0.0, fInitialDriveMaxFlatVel =   0.0, fBrakeForce =    0.0, fHandBrakeForce =     0.0, fTractionCurveMax =    0.0, fTractionCurveLateral =    0.0, fTractionCurveMin =    0.0 },
+        ["NIL"]             =   { torque =      0.0 ,   initialDriveForce =      0.00  , fDriveInertia =      0.0, fClutchChangeRateScaleUpShift =     0.0, fClutchChangeRateScaleDownShift =      0.0, fInitialDriveMaxFlatVel =   0.0, fBrakeForce =    0.0, fHandBrakeForce =     0.0, fTractionCurveMax =    0.0, fTractionCurveLateral =    0.0, fTractionCurveMin =    0.0 }, --Keep this here! It handles all vehicles not specified in this list, leaving them at default.
             }
 
 }
