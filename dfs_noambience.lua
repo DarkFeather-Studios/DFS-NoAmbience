@@ -336,7 +336,7 @@ AddEventHandler("onClientResourceStart", function (resourcename) --WORK ON THIS 
     end
 end)
 
-AddEventHandler("kashacters:PlayerSpawned", function()
+AddEventHandler("playerSpawned", function()
     Wait(2500)
     onStartup()
 end)
